@@ -159,17 +159,17 @@ def bot_sys_stats():
     sent = get_readable_file_size(psutil.net_io_counters().bytes_sent)
     cpuUsage = cpu_percent(interval=1)
     return f"""
-BOT SYSTEM STATS
+Superman SYSTEM STATS
 
-CPU:  {progress_bar(cpuUsage)} {cpuUsage}%
-RAM: {progress_bar(mem_p)} {mem_p}%
-DISK: {progress_bar(disk)} {disk}%
+🖥️ CPU:  {progress_bar(cpuUsage)} {cpuUsage}%
+💽 RAM: {progress_bar(mem_p)} {mem_p}%
+📀 DISK: {progress_bar(disk)} {disk}%
 T: {disk_t} | F: {disk_f}
 
-Working For: {currentTime}
-T-DL: {recv} | T-UL: {sent}
+👮 Working For: {currentTime}
+⭐ T-DL: {recv} | T-UL: {sent}
 
-Made with ❤️ by [KC]
+♥️ 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 @𝗛𝗮𝗺𝘇𝗮𝗠𝗶𝗿𝗿𝗼𝗿𝘇
 """
 
 #----Thanks for deleting my name ❤️ Appreciate it----#
@@ -278,7 +278,7 @@ def get_readable_message():
         bmsg = f"<b>FREE:</b> <code>{get_readable_file_size(disk_usage(DOWNLOAD_DIR).free)}</code><b> | UPTM:</b> <code>{get_readable_time(time() - botStartTime)}</code>"
         bmsg += f"\n<b>DL:</b> <code>{get_readable_file_size(dl_speed)}/s</code><b> | UL:</b> <code>{get_readable_file_size(up_speed)}/s</code>"
         buttons = ButtonMaker()
-        buttons.sbutton("Bot SYS Statistics", str(THREE))
+        buttons.sbutton("☠️ @𝐇𝐚𝐦𝐳𝐚𝐌𝐢𝐫𝐫𝐨𝐫𝐳 ☠️", str(THREE))
         button = buttons.build_menu(1)
         if STATUS_LIMIT and tasks > STATUS_LIMIT:
             return _get_readable_message_btns(msg, bmsg)
