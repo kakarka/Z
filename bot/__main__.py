@@ -78,7 +78,7 @@ def stats(update, context):
 
 def start(update, context):
     if config_dict['DM_MODE']:
-        start_string = 'Welcome | Superman is ready for you.\n' \
+        start_string = 'Welcome | Patrick Bateman is ready for you.\n' \
                        'Thanks for starting me in DM.\n' \
                        'Now I can send all of your files and links here.\n'
     else:
