@@ -164,10 +164,10 @@ PATRICK BATEMAN SYSTEM STATS
 🖥️ CPU:  {progress_bar(cpuUsage)} {cpuUsage}%
 💽 RAM: {progress_bar(mem_p)} {mem_p}%
 📀 DISK: {progress_bar(disk)} {disk}%
-T: {disk_t} | F: {disk_f}
+📥 T: {disk_t} 📤 | F: {disk_f}
 
-👮 Working For: {currentTime}
-⭐ T-DL: {recv} | T-UL: {sent}
+🔱 Working For: {currentTime}
+⬆️ T-DL: {recv} ⬇️ | T-UL: {sent}
 
 ♥️ 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 @𝗛𝗮𝗺𝘇𝗮𝗠𝗶𝗿𝗿𝗼𝗿𝘇
 """
